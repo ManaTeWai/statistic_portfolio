@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li class="menu__inner">
+                <p>Анализ доходов</p>
+                <p>Доход</p>
+            </li>
+            <li class="menu__inner">
+                <p>Анализ регионов</p>
+                <p>Регион</p>
+            </li>
+            <li class="menu__inner">
+                <p>Анализ объемов рынка</p>
+                <p>Объем рынка</p>
+            </li>
+            <li class="menu__inner">
+                <p>Анализ уровеня диверсификации</p>
+                <p>Уровень диверсификации</p>
+            </li>
+        </ul>
+
+        <div class="marks">
+            <div class="mark_1">
+                <h2>Кластеризация оценки доходности ИП на основе отрытых источников данных</h2>
+                <button class="more">Кластеризация</button>
+            </div>
+            <div class="mark_2">
+                <img src="img/pngwing1.png" alt="">
+            </div>
+
+        </div>
+    </header>
+    <main>
+
+        <div class="dohod">
+            <div class="dohod__inner">
+                <h2 class="dohod__header">Доход ИП</h2>
+                <p class="dohod__text">Статистика доходов компаний</p>
+            </div>
+            <canvas id="myChart" width="600px" height="400px"></canvas>
+        </div>
+
+        <div class="region">
+            <h2 class="region__header">Регионы</h2>
+            <p class="region__text">Статистика по количеству релевантных предприятий в разных регионах страны </p>
+            <canvas id="myChart1" width="1345" height="400"></canvas>
+        </div>
+
+        <div class="volume">
+            <div class="volume__text">
+                <div class="volume__text__header">
+                    <h2>Объемы рынка</h2>
+                </div>
+                <div class="volume__text__paragraph">
+                    <p>Статистика объемов рынка</p>
+                    <br>
+                    <p class="ul">Потенциальная емкость рынка: ....</p>
+                    <p class="ul">Реальная емкость рынка: ....</p>
+                    <p class="ul">Доля всего рынка: ....</p>
+                </div>
+            </div>
+            <div class="volume__aside">
+                <p class="ul">Мелкий игрок: 0 - 3%</p>
+                <p class="ul">Средний игрок: 7 - 10%</p>
+                <p class="ul">Крупный игрок: более 25%</p>
+            </div>
+        </div>
+
+        <div class="offers">
+            <div class="offers__text">
+                <h2 class="offers__text__title">Выгодные предложения</h2>
+                <p>Специально для вас мы подобрали релевантные предложения!</p>
+            </div>
+            <div class="offers__cards">
+
+                <div class="offers__card">
+                    <div class="offers__card__img">
+                        <img src="img/Bg.png" alt="">
+                    </div>
+                    <div class="offers__card__inner">
+                        <h2 class="offers__card__inner__title">Кредитная программа</h2>
+                        <h3 class="offers__card__inner__subtitle">Расширяй</h3>
+                        <p class="offers__card__inner__text">Средства на быстрое расширение производства</p>
+                    </div>
+                </div>
+
+                <div class="offers__card">
+                    <div class="offers__card__img">
+                        <img src="img/Bg1.png" alt="">
+                    </div>
+                    <div class="offers__card__inner">
+                        <h2 class="offers__card__inner__title">Накопительный счет</h2>
+                        <h3 class="offers__card__inner__subtitle">Сохраняй</h3>
+                        <p class="offers__card__inner__text">Бесплатные переводы, а также налоговая и бухгалтерская отчетность</p>
+                    </div>
+                </div>
+
+                <div class="offers__card">
+                    <div class="offers__card__img">
+                        <img src="img/Bg2.png" alt="">
+                    </div>
+                    <div class="offers__card__inner">
+                        <h2 class="offers__card__inner__title">Кредитная программа</h2>
+                        <h3 class="offers__card__inner__subtitle">Управляй</h3>
+                        <p class="offers__card__inner__text">Модернизация и отложенный первый платеж</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="first__footer">
+            <div class="info">
+                <div class="info__title">
+                    <h2>Информация</h2>
+                </div>
+                <div class="info__text">
+                    <p>ПСБ — универсальный банк, основанный в 1995 году. Входит в десятку крупнейших банков России и в список системно значимых кредитных организаций, утвержденный Центробанком.</p>
+                </div>
+            </div>
+
+            <div class="contact">
+                <div class="contact__header">
+                    <h2>Контакты</h2>
+                </div>
+                <div class="contact__tel">
+                    <a href="tel: +78003330303">8 800 333 03 03</a>
+                </div>
+                <div class="contact__call">
+                    <p>Звонок по России бесплатный</p>
+                </div>
+                <div class="contact__social">
+                    <a href="#" class="social"><img src="img/vk.svg" alt=""></a>
+                    <a href="#" class="social"><img src="img/telegram.svg" alt=""></a>
+                    <a href="#" class="social"><img src="img/whatsapp.svg" alt=""></a>
+                </div>
+            </div>
+            
+            <div class="contact__logos">
+                <img src="img/psb.png" alt="">
+                <img src="img/ITres.png" alt="">
+            </div>
+        </div>
+
+        <div class="second__footer">
+            <p>Цифровой прорыв | © ITres 2022</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
